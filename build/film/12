@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>When a Man Loves</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="container">
+
+  
+
+<header id="detail-header">
+	<h1>When a Man Loves</h1>
+</header>
+
+	<section id="film-detail-container">
+		<img src="../static/images/m12.jpeg" alt="Film poster">
+
+		<p><em>When a Man Loves</em> is a silent historical drama film directed by Alan Crosland, starring John Barrymore and Dolores Costello.</p>
+
+		<p>Warner Bros. Pictures produced the film.</p>
+
+		<p>
+			It was released by Warner Bros. Pictures on February 3, 1927, with a runtime of 111 minutes.
+
+			
+				It had a budget of $528,000  and made $1 million at the box office.
+				When adjusted for inflation in 2023, that's approximately equivalent to $9.1 million and $17.9 million, respectively.
+			
+		</p>
+
+		<p>
+			The film was written by Bess Meredyth, with Henry Hadley composing the film’s music. Byron Haskin oversaw cinematography, and Harold McCord helped with editing the film.
+		</p>
+
+		<p><a href="https://archive.org/details/when-a-man-loves_1927">View an archived version of <em>When a Man Loves</em>.</a></p>
+
+		<p><a href="https://en.wikipedia.org/wiki/When_a_Man_Loves">View the Wikipedia entry for <em>When a Man Loves</em>.</a></p>
+
+		<p><a href="../index.html">Return to the list</a> to select a different film.</p>
+	</section>
+
+	<section id="footer">
+		This web application was created by Zachary Carnell as part of an assignment for the University of Florida.
+		All film posters are within the public domain, with one exception:
+		The distribution rights for <em>Sunrise: A Song of Two Humans</em>'s poster
+		is licensed by <a href="https://flickr.com/photos/116153022@N02/15486556928">Aurora on flickr.com</a>,
+		under the Creative Commons <a href="https://creativecommons.org/licenses/by/2.0/deed.en">Attribution 2.0 Generic</a> license,
+			and has been slightly cropped on the home page for uniformity.
+	</section>
+
+
+
+</div>
+
+</body>
+</html>

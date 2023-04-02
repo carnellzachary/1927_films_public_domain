@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Two Arabian Knights</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="container">
+
+  
+
+<header id="detail-header">
+	<h1>Two Arabian Knights</h1>
+</header>
+
+	<section id="film-detail-container">
+		<img src="../static/images/m20.jpeg" alt="Film poster">
+
+		<p><em>Two Arabian Knights</em> is a silent comedy film directed by Lewis Milestone, starring William Boyd, Mary Astor, and Louis Wolheim.</p>
+
+		<p>John W. Considine Jr. and Howard Hughes produced the film.</p>
+
+		<p>
+			It was released by United Artists on September 23, 1927, with a runtime of 92 minutes.
+
+			
+				It had a budget of $1 million and made $509,718  at the box office.
+				When adjusted for inflation in 2023, that's approximately equivalent to $17.9 million and $8.8 million, respectively.
+			
+		</p>
+
+		<p>
+			The film was written by Wallace Smith, Cyril Gardner, James T. O&#39;Donohoe, and George Marion Jr., with Tony Gaudio and Joseph H. August overseeing cinematography and Douglass Biggs helping edit the film. No composer was found for the original version of the film.
+		</p>
+
+		<p><a href="https://archive.org/details/two-arabian-knights_1927">View an archived version of <em>Two Arabian Knights</em>.</a></p>
+
+		<p><a href="https://en.wikipedia.org/wiki/Two_Arabian_Knights">View the Wikipedia entry for <em>Two Arabian Knights</em>.</a></p>
+
+		<p><a href="../index.html">Return to the list</a> to select a different film.</p>
+	</section>
+
+	<section id="footer">
+		This web application was created by Zachary Carnell as part of an assignment for the University of Florida.
+		All film posters are within the public domain, with one exception:
+		The distribution rights for <em>Sunrise: A Song of Two Humans</em>'s poster
+		is licensed by <a href="https://flickr.com/photos/116153022@N02/15486556928">Aurora on flickr.com</a>,
+		under the Creative Commons <a href="https://creativecommons.org/licenses/by/2.0/deed.en">Attribution 2.0 Generic</a> license,
+			and has been slightly cropped on the home page for uniformity.
+	</section>
+
+
+
+</div>
+
+</body>
+</html>

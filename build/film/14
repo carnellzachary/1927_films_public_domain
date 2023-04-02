@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Uncle Tom&#39;s Cabin</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="container">
+
+  
+
+<header id="detail-header">
+	<h1>Uncle Tom&#39;s Cabin</h1>
+</header>
+
+	<section id="film-detail-container">
+		<img src="../static/images/m14.jpeg" alt="Film poster">
+
+		<p><em>Uncle Tom&#39;s Cabin</em> is a silient historical drama film directed by Harry A. Polland, starring Margarita Fischer, Arthur Edmund Carewe, and George Siegmann .</p>
+
+		<p>Carl Laemmle produced the film.</p>
+
+		<p>
+			It was released by Universal Pictures on November 4, 1927, with a runtime of 112 minutes.
+
+			
+				It had a budget of $1.5 million (estimated).
+				When adjusted for inflation in 2023, that's approximately equivalent to $25.9 million. Box office numbers for the film could not be found.
+			
+		</p>
+
+		<p>
+			The film was written by Harvey F. Thew, A. P. Younger, and Walter Younger (titles), with Erno Rapee composing the film’s music. Charles Stumar and Jacob Kull oversaw cinematography, and Gilmore Walker, Daniel Mandell, Byron Robinson, and Ted Kent helped with editing the film.
+		</p>
+
+		<p><a href="https://archive.org/details/UncleTom_201902">View an archived version of <em>Uncle Tom&#39;s Cabin</em>.</a></p>
+
+		<p><a href="https://en.wikipedia.org/wiki/Uncle_Tom%27s_Cabin_(1927_film)">View the Wikipedia entry for <em>Uncle Tom&#39;s Cabin</em>.</a></p>
+
+		<p><a href="../index.html">Return to the list</a> to select a different film.</p>
+	</section>
+
+	<section id="footer">
+		This web application was created by Zachary Carnell as part of an assignment for the University of Florida.
+		All film posters are within the public domain, with one exception:
+		The distribution rights for <em>Sunrise: A Song of Two Humans</em>'s poster
+		is licensed by <a href="https://flickr.com/photos/116153022@N02/15486556928">Aurora on flickr.com</a>,
+		under the Creative Commons <a href="https://creativecommons.org/licenses/by/2.0/deed.en">Attribution 2.0 Generic</a> license,
+			and has been slightly cropped on the home page for uniformity.
+	</section>
+
+
+
+</div>
+
+</body>
+</html>

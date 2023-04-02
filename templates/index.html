@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<header id="home-header">
+  <h1>1927 Films in the Public Domain</h1>
+</header>
+
+<summary>
+  <p>Every year on January 1, copyrighted artwork from 95 years ago enter the public domain.
+  The catalog below represents some of the most popular American films from 1927 that entered the public domain this year.</p>
+
+  <p>Click on a film to learn more and view archived footage.</p>
+</summary>
+
+<!-- pairs is a list that must be sent here by a route function
+
+     The list will contain 45 pairs: a presidency number, and a
+     president's name -->
+
+    <section id="film-list-container">
+    {% for pair in pairs %}
+        <div class="film-list-item">
+          <a href="{{ url_for( 'detail', num=pair[0] ) }}">
+          <img src="{{ url_for('static', filename="images/"+pair[2]) }}" alt="Film poster">
+          <span>{{ pair[1] }}</span>
+          </a>
+        </div>
+    {% endfor %}
+    </section>
+
+    <section id="footer">
+      This web application was created by Zachary Carnell as part of an assignment for the University of Florida.
+      All film posters are within the public domain, with one exception:
+      The distribution rights for <em>Sunrise: A Song of Two Humans</em>'s poster
+      is licensed by <a href="https://flickr.com/photos/116153022@N02/15486556928">Aurora on flickr.com</a>,
+      under the Creative Commons <a href="https://creativecommons.org/licenses/by/2.0/deed.en">Attribution 2.0 Generic</a> license,
+        and has been slightly cropped on the home page for uniformity.
+    </section>
+
+{% endblock %}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>7th Heaven</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div id="container">
+
+  
+
+<header id="detail-header">
+	<h1>7th Heaven</h1>
+</header>
+
+	<section id="film-detail-container">
+		<img src="../static/images/m07.jpeg" alt="Film poster">
+
+		<p><em>7th Heaven</em> is a silent romantic drama film directed by Frank Borzage, starring Janet Gaynor, Charles Farrell, and Ben Bard.</p>
+
+		<p>William Fox produced the film.</p>
+
+		<p>
+			It was released by Fox Film Corporation on May 6, 1927, with a runtime of 110 minutes.
+
+			
+				It had a budget of $1.3 million and made $2.5 million at the box office.
+				When adjusted for inflation in 2023, that's approximately equivalent to $22.5 million and $43.2 million, respectively.
+			
+		</p>
+
+		<p>
+			The film was written by Benjamin Glazer, Harry H. Caldwell (titles), Katharine Hillker (titles), Bernard Vorhaus (uncredited), with Ernö Rapée composing the film’s music. Ernest Palmer and Joseph A. Valentine oversaw cinematography, and Barney Wolf helped with editing the film.
+		</p>
+
+		<p><a href="https://archive.org/details/sevebth-heaven">View an archived version of <em>7th Heaven</em>.</a></p>
+
+		<p><a href="https://en.wikipedia.org/wiki/7th_Heaven_(1927_film)">View the Wikipedia entry for <em>7th Heaven</em>.</a></p>
+
+		<p><a href="../index.html">Return to the list</a> to select a different film.</p>
+	</section>
+
+	<section id="footer">
+		This web application was created by Zachary Carnell as part of an assignment for the University of Florida.
+		All film posters are within the public domain, with one exception:
+		The distribution rights for <em>Sunrise: A Song of Two Humans</em>'s poster
+		is licensed by <a href="https://flickr.com/photos/116153022@N02/15486556928">Aurora on flickr.com</a>,
+		under the Creative Commons <a href="https://creativecommons.org/licenses/by/2.0/deed.en">Attribution 2.0 Generic</a> license,
+			and has been slightly cropped on the home page for uniformity.
+	</section>
+
+
+
+</div>
+
+</body>
+</html>

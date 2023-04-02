@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<header id="detail-header">
+	<h1>{{ film['title'] }}</h1>
+</header>
+
+	<section id="film-detail-container">
+		<img src="{{ url_for('static', filename="images/"+film['image_name']) }}" alt="Film poster">
+
+		<p><em>{{ film['title'] }}</em> is a {{ film['genre'] }} film directed by {{ film['director'] }}, starring {{ film['starring_cast'] }}.</p>
+
+		<p>{{ film['producer'] }} produced the film.</p>
+
+		<p>
+			It was released by {{ film['distribution_company'] }} on {{ film['release_date'] }}, with a runtime of {{ film['runtime'] }} minutes.
+
+			{% if film['budget']|length >= 3 and film['box_office']|length >= 3 %}
+				It had a budget of {{ film['budget'] }} and made {{ film['box_office'] }} at the box office.
+				When adjusted for inflation in 2023, that's approximately equivalent to {{ film['budget_adjusted'] }} and {{ film['box_office_adjusted'] }}, respectively.
+			{% elif film['budget']|length >= 3 and film['box_office']|length <= 2 %}
+				It had a budget of {{ film['budget'] }}.
+				When adjusted for inflation in 2023, that's approximately equivalent to {{ film['budget_adjusted'] }}. Box office numbers for the film could not be found.
+			{% elif film['budget']|length <= 2 and film['box_office']|length >= 3 %}
+				It made {{ film['box_office'] }} at the box office.
+				When adjusted for inflation in 2023, that's approximately equivalent to {{ film['box_office_adjusted'] }}. Data on the film's budget could not be found.
+			{% else %}{% endif %}
+		</p>
+
+		<p>
+			The film was written by {{ film['writer'] }}{% if film['composer']|length >= 3 and film['editor']|length >= 3 %}, with {{ film['composer'] }} composing the film’s music. {{ film['cinematographer'] }} oversaw cinematography, and {{ film['editor'] }} helped with editing the film.{% elif film['composer']|length <= 2 and film['editor']|length >= 3 %}, with {{ film['cinematographer'] }} overseeing cinematography and {{ film['editor'] }} helping edit the film. No composer was found for the original version of the film.{% elif film['composer']|length >= 3 and film['editor']|length <= 2 %}, with {{ film['cinematographer'] }} overseeing cinematography and {{ film['composer'] }} composing the film's music. No information could be found on there being an official editor for the film.{% else %}, with {{ film['cinematographer'] }} overseeing cinematography. No information could be found on there being an official editor or composer for the film.{% endif %}
+		</p>
+
+		<p><a href="{{ film['archive_link'] }}">View an archived version of <em>{{ film['title'] }}</em>.</a></p>
+
+		<p><a href="{{ film['wiki_link'] }}">View the Wikipedia entry for <em>{{ film['title'] }}</em>.</a></p>
+
+		<p><a href="{{ url_for('index') }}">Return to the list</a> to select a different film.</p>
+	</section>
+
+	<section id="footer">
+		This web application was created by Zachary Carnell as part of an assignment for the University of Florida.
+		All film posters are within the public domain, with one exception:
+		The distribution rights for <em>Sunrise: A Song of Two Humans</em>'s poster
+		is licensed by <a href="https://flickr.com/photos/116153022@N02/15486556928">Aurora on flickr.com</a>,
+		under the Creative Commons <a href="https://creativecommons.org/licenses/by/2.0/deed.en">Attribution 2.0 Generic</a> license,
+			and has been slightly cropped on the home page for uniformity.
+	</section>
+
+{% endblock %}
